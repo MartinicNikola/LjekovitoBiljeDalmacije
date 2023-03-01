@@ -1,0 +1,62 @@
+.container{
+    width:fit-content;
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.hide{
+    visibility: hidden;
+    display: none;
+    margin: 0;
+}
+
+.menu{
+    width: 90%;
+    margin: 5px;
+    padding: 10px;
+    border-style: inset;
+    border-color:rgb(59, 105, 6);
+    border-radius: 5%;
+    border-left: none;
+    
+}
+
+.textFieldContainer{
+    padding: 0px;
+    margin-bottom: 20px;
+    height: 50px;
+    width:100px
+}
+
+.menu-item{
+    background-color: rgb(230, 233, 67);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10%;
+    width: 50px;
+    transition: width 1s;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item > img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.menu-item:hover{
+    width: 100px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu-item > h5{
+    display:none;
+    margin-left: 10px;
+}
+
+.menu-item:hover >h5{
+    display:block;
+}

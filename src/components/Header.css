@@ -1,0 +1,17 @@
+.main_image_container{
+    height: 300px;
+    background: url('../images/annie-spratt-JLpDkdcuceI-unsplash.jpg');
+    background-size: cover;
+    border-radius: 0px 0px 80% 80% / 25%;
+    border-bottom: 5px black;
+    border-style: solid;
+    margin-left: 5px;
+    margin-right:5px;
+}
+
+.main_image_container>h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 100px;
+    color:white;
+}

@@ -1,0 +1,33 @@
+.receiptsContainer{
+    width: 45%;
+    margin: 5px;
+    background-color: rgb(59, 105, 6);
+}
+
+.receipt{
+    width: fit-content;
+    justify-content: center;
+    margin: 5px;
+    background-color: white;
+}
+
+.receiptHeader{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.receipt_h4{
+    float:left;
+    width: 70%;
+}
+
+.receipt_img{
+    width: 30px;
+    height: 30px;
+}
+
+.receipt > p{
+    padding: 10%;
+}
+
